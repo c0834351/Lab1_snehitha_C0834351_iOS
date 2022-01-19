@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     var states = WinningPositions()
     var gameActive = true
     var positions = WinningPositions()
+    var n1=0
+    var c1=0
     
     
     
@@ -44,8 +46,8 @@ class ViewController: UIViewController {
         
         //not to show title in the beginning and values of players
         winner.isHidden=true
-        noughtsLb.text = "0"
-        crossesLb.text = "0"
+//        noughtsLb.text = "0"
+//        crossesLb.text = "0"
         
     }
 
@@ -64,8 +66,8 @@ class ViewController: UIViewController {
                     buttons.isEnabled=true
                 }
             }
-            noughtsLb.text = "0"
-            crossesLb.text = "0"
+            //  noughtsLb.text = "0"
+            //  crossesLb.text = "0"
             winner.isHidden = true
             
         default:
@@ -112,12 +114,14 @@ class ViewController: UIViewController {
                 if states.gameStates[position[0]] == 1{
                     winner.isHidden=false
                     winner.text = "Player 1 (Noughts) is winner"
-                    noughtsLb.text = "1"
+                    n1+=1
+                    noughtsLb.text = String(n1)
                 }
                 else{
                     winner.isHidden=false
                     winner.text = "Player 2 (Crosses) is winner"
-                    crossesLb.text = "1"
+                    c1+=1
+                    crossesLb.text = String(c1)
                 }
             }
         }
