@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D4A64F1279F69E2005268F2 /* Lab1_snehitha_CO834351_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A64EF279F69E2005268F2 /* Lab1_snehitha_CO834351_iOS.xcdatamodeld */; };
 		3DD134B4279793F100A2BAD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD134B3279793F100A2BAD7 /* AppDelegate.swift */; };
 		3DD134B6279793F100A2BAD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD134B5279793F100A2BAD7 /* SceneDelegate.swift */; };
 		3DD134B8279793F100A2BAD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD134B7279793F100A2BAD7 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D4A64F0279F69E2005268F2 /* Lab1_snehitha_CO834351_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab1_snehitha_CO834351_iOS.xcdatamodel; sourceTree = "<group>"; };
 		3DD134B0279793F100A2BAD7 /* Lab1_snehitha_C0834351_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab1_snehitha_C0834351_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD134B3279793F100A2BAD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DD134B5279793F100A2BAD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		3DD134C72797940900A2BAD7 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				3D4A64EF279F69E2005268F2 /* Lab1_snehitha_CO834351_iOS.xcdatamodeld */,
 				3DD134D02797954C00A2BAD7 /* WinningPositions.swift */,
 			);
 			path = model;
@@ -189,6 +192,7 @@
 				3DD134B4279793F100A2BAD7 /* AppDelegate.swift in Sources */,
 				3DD134B6279793F100A2BAD7 /* SceneDelegate.swift in Sources */,
 				3DD134D12797954C00A2BAD7 /* WinningPositions.swift in Sources */,
+				3D4A64F1279F69E2005268F2 /* Lab1_snehitha_CO834351_iOS.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +404,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D4A64EF279F69E2005268F2 /* Lab1_snehitha_CO834351_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D4A64F0279F69E2005268F2 /* Lab1_snehitha_CO834351_iOS.xcdatamodel */,
+			);
+			currentVersion = 3D4A64F0279F69E2005268F2 /* Lab1_snehitha_CO834351_iOS.xcdatamodel */;
+			path = Lab1_snehitha_CO834351_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3DD134A8279793F100A2BAD7 /* Project object */;
 }
